@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_building_blocks_stages",
+  "info": {
+    "displayName": "Bühne",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

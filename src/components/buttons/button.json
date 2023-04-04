@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "hand-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "donate",
+        "frame",
+        "text-only"
+      ],
+      "default": "default",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "Mehr anzeigen"
+    }
+  }
+}

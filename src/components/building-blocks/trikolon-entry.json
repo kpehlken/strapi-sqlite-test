@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_building_blocks_trikolon_entries",
+  "info": {
+    "displayName": "trikolon-entry"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "unique": false,
+      "required": true
+    },
+    "overline": {
+      "type": "string"
+    }
+  }
+}

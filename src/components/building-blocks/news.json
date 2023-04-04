@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_building_blocks_news",
+  "info": {
+    "displayName": "news",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "default": "News",
+      "required": true
+    },
+    "news_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-article.news-article"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button",
+      "required": true
+    }
+  }
+}

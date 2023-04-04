@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_labeled_icons",
+  "info": {
+    "displayName": "labeled-icon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "default": "Information"
+    },
+    "description": {
+      "type": "string",
+      "default": "Kurze Beschreibung der Information"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

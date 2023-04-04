@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_building_blocks_share_banners",
+  "info": {
+    "displayName": "Social Media Teilen Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link-icon"
+    }
+  }
+}

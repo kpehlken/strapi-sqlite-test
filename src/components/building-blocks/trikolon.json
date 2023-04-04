@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_building_blocks_trikolons",
+  "info": {
+    "displayName": "3er Kachel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "trikolonEntry": {
+      "type": "component",
+      "repeatable": true,
+      "component": "building-blocks.trikolon-entry"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button",
+      "required": true
+    }
+  }
+}

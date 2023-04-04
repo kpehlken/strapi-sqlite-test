@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_building_blocks_galeries",
+  "info": {
+    "displayName": "Galerie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generics.image-with-caption"
+    }
+  }
+}

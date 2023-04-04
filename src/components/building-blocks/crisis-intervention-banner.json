@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_building_blocks_crisis_intervention_banners",
+  "info": {
+    "displayName": "Krisen Interventions Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

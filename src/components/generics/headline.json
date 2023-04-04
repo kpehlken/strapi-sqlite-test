@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generics_headlines",
+  "info": {
+    "displayName": "headline"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "M",
+        "XL"
+      ],
+      "default": "M",
+      "required": true
+    }
+  }
+}

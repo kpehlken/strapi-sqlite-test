@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_links_link_texts",
+  "info": {
+    "displayName": "Link-Text",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "Start"
+    },
+    "URL": {
+      "type": "string",
+      "default": "https://ankerland.de",
+      "required": true
+    }
+  }
+}

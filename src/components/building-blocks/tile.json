@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_building_blocks_tiles",
+  "info": {
+    "displayName": "Kachel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ],
+      "default": "right"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "full_width": {
+      "type": "boolean"
+    },
+    "overline": {
+      "type": "string"
+    }
+  }
+}

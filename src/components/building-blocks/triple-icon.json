@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_building_blocks_triple_icons",
+  "info": {
+    "displayName": "Informations Kachel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "default": "Was macht Ankerland?"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.labeled-icon",
+      "max": 3,
+      "min": 1
+    }
+  }
+}

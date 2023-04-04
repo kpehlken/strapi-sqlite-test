@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_building_blocks_contacts",
+  "info": {
+    "displayName": "Kontakt Informationen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "contact_phone": {
+      "type": "string"
+    },
+    "contact_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

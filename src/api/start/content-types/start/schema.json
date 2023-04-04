@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "starts",
+  "info": {
+    "singularName": "start",
+    "pluralName": "starts",
+    "displayName": "Start",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "landingpage": {
+      "type": "dynamiczone",
+      "components": [
+        "building-blocks.stage",
+        "building-blocks.text",
+        "building-blocks.tile",
+        "building-blocks.crisis-intervention-banner",
+        "building-blocks.trauma-phone",
+        "building-blocks.news",
+        "building-blocks.trikolon",
+        "building-blocks.bulletpoints",
+        "building-blocks.quote"
+      ],
+      "required": false
+    }
+  }
+}

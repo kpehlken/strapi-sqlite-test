@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projekt_seitens",
+  "info": {
+    "singularName": "projekt-seiten",
+    "pluralName": "projekt-seitens",
+    "displayName": "Projekt Seiten",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project_name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "building-blocks.bulletpoints",
+        "building-blocks.crisis-intervention-banner",
+        "building-blocks.news",
+        "building-blocks.quote",
+        "building-blocks.stage",
+        "building-blocks.text",
+        "building-blocks.tile",
+        "building-blocks.trauma-phone",
+        "building-blocks.trikolon",
+        "building-blocks.galerie",
+        "building-blocks.contact",
+        "building-blocks.project-partner",
+        "building-blocks.share-banner",
+        "building-blocks.banner",
+        "building-blocks.triple-icon"
+      ]
+    }
+  }
+}

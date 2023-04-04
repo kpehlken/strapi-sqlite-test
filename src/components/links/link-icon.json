@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_links_link_icons",
+  "info": {
+    "displayName": "Link-Icon",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "URL": {
+      "type": "string",
+      "required": true,
+      "default": "https://ankerland.de"
+    }
+  }
+}

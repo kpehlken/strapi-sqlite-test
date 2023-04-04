@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_building_blocks_trauma_phones",
+  "info": {
+    "displayName": "Trauma Info Telefon Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    }
+  }
+}

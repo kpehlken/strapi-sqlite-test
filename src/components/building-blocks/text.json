@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_building_blocks_texts",
+  "info": {
+    "displayName": "text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "headlines": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generics.headline"
+    }
+  }
+}
